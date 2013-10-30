@@ -5,7 +5,7 @@ $(document).ready(function(){
 			gameNumber = 1;
 			$( "#player1" ).focus();
 			if( ! ( $('#player1').val() && $('#player2').val() && $('#player3').val() && $('#player4').val() )){
-				$( '#form-names' ).submit(function(event){
+				$( '#form-names' ).submit(function(){
 					event.preventDefault();
 					if( ! ( $('#player1').val() && $('#player2').val() && $('#player3').val() && $('#player4').val() )){
 						alert('You\'ve not enterred all names!');
@@ -30,7 +30,7 @@ $(document).ready(function(){
 						}
 						
 						// Hands of Game 1 submitted. Update scores.
-						$( "#game1" ).submit(function(event){
+						$( "#game1" ).submit(function(){
 							event.preventDefault();
 							if (typeof enterred === 'undefined') {
 								// User has enterred claimed scores.
