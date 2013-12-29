@@ -1,7 +1,7 @@
 Callbreak v.1.0
 ===============
 
-A responsive simple jQuery-based web-app to record points for the card game- CallBreak.
+A simple jQuery-based web-app to record points for the card game, CallBreak.
 
 A live working versison at: http://techsth.com/callbreak/
 
